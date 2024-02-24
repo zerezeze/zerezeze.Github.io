@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 
-html, body, aside {
+html {
+    scroll-behavior: smooth;
+}
+section {
+    margin-left: 300px;
+}
+
+html, body, aside, section, main {
     height: 100%;
 }
 
 .aside-wrap {
-    background-image: linear-gradient(to bottom right, red, black);
+    background-image: linear-gradient(to bottom right, rgb(2, 39, 25), black);
     width: 240px;
     padding: 100px 0px 0px 20px;
     position: fixed;
