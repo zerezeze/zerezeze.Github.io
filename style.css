@@ -7,9 +7,6 @@
 html {
     scroll-behavior: smooth;
 }
-section {
-    margin-left: 300px;
-}
 
 html, body, aside, section, main {
     height: 100%;
@@ -51,4 +48,23 @@ html, body, aside, section, main {
 
 .aside-wrap .menu-link:hover {
    border-bottom: 2px solid ;
+}
+
+/*SECTIONS*/
+section {
+    padding: 5% 0 0 350px;
+    max-width: 900px;
+  }
+
+/* SECTION HOME */
+#home .section-title {
+    font-size: 56px;
+
+}
+
+.section-description {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+
 }
