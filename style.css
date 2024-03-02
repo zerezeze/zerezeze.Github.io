@@ -8,12 +8,17 @@ html {
     scroll-behavior: smooth;
 }
 
+ul:not(.menu-list) {
+    padding: 0;
+
+}
+
 html, body, aside, section, main {
     height: 100%;
 }
 
 .aside-wrap {
-    background-image: linear-gradient(to bottom right, rgb(2, 39, 25), black);
+    background-image: linear-gradient(to bottom right, rgb(8, 90, 59), black);
     width: 240px;
     padding: 100px 0px 0px 20px;
     position: fixed;
@@ -59,12 +64,30 @@ section {
 /* SECTION HOME */
 #home .section-title {
     font-size: 56px;
-
 }
 
 .section-description {
     margin: 10px 0;
     font-size: 18px;
     line-height: 1.5;
+}
 
+.social-links {
+    list-style: none;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color:rgb(8, 90, 59);
+}
+
+.social-links li a {
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(8, 90, 59);
 }
